@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский»</title>
+    <!--Барбершоп «Бородинский» - Карточка товара-->
+    <meta name="description" content="">
+    <link href="img/favicon.png" rel="icon" type="image/icon">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+    <header class="main-header">
+        <div class="container clearfix">
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="text.html">Прайс-лист</a>
+                    </li>
+                    <li class="active">
+                        <a href="catalog.html">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a href="search.html" class="login">Вход</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container-header">
+            <div class="inner-page-title">
+                <h1>Набор для путешествий «Baxter of California»</h1>
+                <div class="breadcrumbs">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+                    <li><a href="catalog.html">Средства для ухода</a></li>
+                    <li class="current">Набор для путешествий «Baxter of California»</li>
+                </div>
+            </div>
+        </div>
+        <div class="container-content clearfix">
+            <div class="product-gallery">
+                <div class="big-photo">
+                    <a href="#"><img src="img/big-photo.jpg" width="460" height="500" alt="Набор для путешествий «Baxter of California»"></a>
+                </div>
+                <div class="small-photo">
+                    <a href="#"><img src="img/small-photo-1.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»"></a>
+                    <a href="#"><img src="img/small-photo-2.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»"></a>
+                    <a href="#"><img src="img/small-photo-3.jpg" width="140" height="149" alt="Набор для путешествий «Baxter of California»"></a>
+                </div>
+            </div>
+            <div class="product">
+                <section class="product-description">
+                    <div class="product-description-data clearfix">
+                        <span>Есть в наличии</span>
+                        <span>Актикул: dexter-ae</span>
+                    </div>
+                    <p class="product-description-text">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха:средство для умывания, увлажняющий крем, крем для бритья,
+                        крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+                    <p class="action"><span class="btn btn-price">2 900 руб.</span><a href="#" class="btn btn-buy">Купить</a></p>
+                </section>
+                <section class="product-composition">
+                    <h2>В набор входят:</h2>
+                    <ul class="custom-list-2">
+                        <li>Средство для умывания (50 мл)</li>
+                        <li>Увлажняющий крем (50 мл)</li>
+                        <li>Крем для бритья (50 мл)</li>
+                        <li>Крем после бритья, шампунь (50 мл) </li>
+                        <li>Удобная кожаная косметичка</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <section class="footer-contacts">
+                Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                <a href="#">Как нас найти?</a><br> телефон: +7 (495) 666-02-66
+            </section>
+            <section class="footer-social">
+                <p>Давайте дружить!</p>
+                <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+                <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+            </section>
+            <section class="footer-copyright">
+                <p>Дизайн сайта:</p>
+                <a href="#" class="btn">htmlacademy.ru</a>
+            </section>
+        </div>
+    </footer>
+    <div class="modal-content">
+        <!--Модальное окно-->
+        <div class="modal-content-close">Закрыть</div>
+        <h2 class="modal-content-title">Личный кабинет</h2>
+        <p>Введите, пожалуйста, свой логин и пароль.</br>Если Вы забыли пароль.</p>
+        <form class="login-form" action="/echo" method="post">
+            <label for="login">
+             <input type="text" class="icon-user" name="login" id="login" placeholder="Логин">
+           </label>
+            <label for="password">
+             <input type="password" class="icon-password" name="password" id="password" placeholder="Пароль">
+           </label>
+            <input type="checkbox" name="remember" id="remember-me">
+            <label for="remember-me">Запомните меня</label>
+            <a href="#" class="restore">Я забыл пароль!</a>
+            <button type="submit" class="btn">Войти</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="js/modal-content.js"></script>
+</body>
+
+</html>
